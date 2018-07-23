@@ -109,10 +109,7 @@ public class SetUpSettings extends AppCompatActivity {
         });
 
 
-
-
-
-
+        /** Load Image and Crop the image **/
 
         profimage.setOnClickListener(new View.OnClickListener() {
             @Override

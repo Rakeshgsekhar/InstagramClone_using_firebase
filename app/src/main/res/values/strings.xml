@@ -6,4 +6,7 @@
     <string name="login">LogIn</string>
     <string name="signup">SignUP</string>
     <string name="todo">TODO</string>
+    <string name="postimage">postimage</string>
+    <string name="des_image">Description</string>
+    <string name="post">Post</string>
 </resources>
