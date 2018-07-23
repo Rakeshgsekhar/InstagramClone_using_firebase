@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/colorPrimary"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_centerVertical="true"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regemail"
+        android:hint="@string/email_id"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="15sp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regpass"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_below="@id/regemail"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regconfpass"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_below="@id/regpass"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/register"
+        android:id="@+id/submit"
+        />
+
+
+</RelativeLayout>
